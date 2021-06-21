@@ -4,24 +4,120 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Javascript projects</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Javascript projects</h1>
-    <h3>This is my test page for JavaScript projects</h3>
     <!--Nav bar-->
-    <div id="nav-placeholder"></div>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">JavaScript Projects</a>
 
-    <script>
-      $(function () {
-        $("#nav-placeholder").load("nav.html");
-      });
-    </script>
-    <!--end Nav bar-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <footer>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1 class="text-info">JavaScript Projects</h1>
+            <p class="lead my-4">
+              This page collects smaller projects built with JavaScript.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-question"></i>
+                </div>
+                <h3 class="card-title mb-3">Quiz</h3>
+                <a href="Quiz/quiz.html" class="btn btn-info">Do the quiz!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-clock"></i>
+                </div>
+                <h3 class="card-title mb-3">Digital clock</h3>
+                <a href="Clock/clock.html" class="btn btn-dark"
+                  >Check the time!</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-palette"></i>
+                </div>
+                <h3 class="card-title mb-3">Color changer</h3>
+                <a href="Colorchanger/colorchanger.html" class="btn btn-info"
+                  >Play with colors!</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <footer>
       <p>made by Lisa</p>
       <a href="https://github.com/iths-lisa-beverborg/my-games"> Github </a>
     </footer>
+  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
