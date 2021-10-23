@@ -20,3 +20,21 @@ let data = JSON.parse(
     image.src = user.picture.large;
   }
 
+  leftBtn.addEventListener("click", function() {
+    if (i == 0) {
+      i = data.length - 1;
+    } else {
+      i--;
+    }
+    nextUser(data[i]);
+  });
+  
+  rightBtn.addEventListener("click", function() {
+    if (i == data.length - 1) {
+      i = 0;
+    } else {
+      i++;
+    }
+    nextUser(data[i]);
+  });
+  
