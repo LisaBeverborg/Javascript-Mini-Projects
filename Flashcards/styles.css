@@ -1,0 +1,35 @@
+body {
+    background-size: 1000px auto;
+}
+
+main {
+    max-width: 500px;
+    margin: auto;
+}
+
+h1 {
+    color: gray;
+    font-family: "Arial Black";
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 1px 1px 1px 1px;
+}
+
+.card {
+    background-color: purple;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px grey;
+    margin: 7px 2px 7px 2px;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    width: 96px;
+    height: 96px;
+}
