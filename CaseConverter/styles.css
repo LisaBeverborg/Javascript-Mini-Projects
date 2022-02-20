@@ -1,0 +1,30 @@
+body {
+    margin: 20px;
+}
+
+#container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.title {
+    font-size: 3rem;
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 200px;
+    font-size: 1em;
+}
+
+button {
+    background-color: 	#E6E6FA;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    margin: 10px 10px 0 0;
+    padding: 0.5rem;
+}
