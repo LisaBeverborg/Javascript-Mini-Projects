@@ -28,3 +28,13 @@ button {
     margin: 10px 10px 0 0;
     padding: 0.5rem;
 }
+
+.options {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#save-text-file {
+    background-color: #ADD8E6;
+}
